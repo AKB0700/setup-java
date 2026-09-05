@@ -155,7 +155,7 @@ jobs:
     steps:
       - *checkout_step
       - name: Install bash
-        run: apk add --no-cache bash
+        run: apk add --no-cache bash gnupg
       - name: setup-java
         uses: ./
         id: setup-java
